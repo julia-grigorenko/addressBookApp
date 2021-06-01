@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Address Book - How to write testable javascript code</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="right-block" >
+            <h2>Address Book</h2>
+            <!-- contact list module -->
+        <section>
+            <ul id="contact-list">loading...</ul>
+        </section>
+            <!-- contact item details module   -->
+        <section>
+            <div id="contact-item-details"> loading... </div>
+        </section>
+        </div>                     
+        <section id="add-contact-module">
+            <button id="open-add-contact-form-btn">+</button>
+            <form>
+                <h2>Add Contact</h2>
+                first name:<br>
+                <input type='text' data-key='fname' class='add-contact-input'><br>
+                last name:<br>
+                <input type='text' data-key='lname' class='add-contact-input'><br>
+                phone:<br>
+                <input type='text' data-key='phone' class='add-contact-input'><br>
+                email:<br>
+                <input type='text' data-key='email' class='add-contact-input'><br>
+                <button type='button' id="add-contact-btn">add</button>
+            </form>
+    </section>
+    </div>
+    
+    
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

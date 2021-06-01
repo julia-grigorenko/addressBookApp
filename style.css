@@ -1,0 +1,62 @@
+/* Contact Item Details Module */
+#contact-item-details {
+    background: #333;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+#add-contact-module {
+    display: flex;
+    margin-bottom: 1px;
+    margin-left: 8px;
+}
+
+#add-contact-module #open-add-contact-form-btn {
+    background: #54bb7d;
+    font-size: 1.5em;
+    color: white;
+    padding-bottom: 5px;
+    margin-top: 26px;
+    align-self: baseline;
+}
+
+#add-contact-module form {
+    /* position: absolute; */
+    padding: 10px;
+    width: 150px;
+    background-color: #e1e1e1;
+    border: 1px solid #999;
+    display: none;
+    margin-top: 26px; 
+    opacity: 0;
+    transition: opacity 11s ease-out;
+}
+
+#add-contact-module form input {
+    width: 97%;
+    margin: 2px 0;
+}
+
+#add-contact-module form button {
+    background: #54bb7d;
+    font-size: 1em;
+    padding: 0px 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+#add-contact-module:hover form {
+    display: block;
+    opacity: 1;
+}
+
+.active {
+    background: yellow;
+}
+ul {
+    display: inline-block;
+}
+.wrap {
+    display: flex;
+}
